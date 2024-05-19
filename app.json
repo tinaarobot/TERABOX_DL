@@ -26,7 +26,7 @@
     },
     "ADMINS": {
       "description": "Your telegram id",
-      "value": ""
+      "value": "6922271843"
     },
     "HOST": {
       "description": "redis url  Get This Value from http://redislabs.com/try-free ",
