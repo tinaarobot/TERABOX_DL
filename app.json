@@ -15,11 +15,7 @@
   "repository": "https://github.com/tinaarobot/TERABOX_DL",
   "stack": "container",
   "env": {
-    "WEBHOOK": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode! (Don't change anything in this field!)",
-      "value": "ANYTHING"
-    },
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "Make a bot from https://t.me/BotFather and enter the token here.",
       "value": ""
     },
@@ -31,36 +27,17 @@
       "description": "Get this value from https://my.telegram.org/apps",
       "value": ""
     },
-    "Bot_username": {
-      "description": "Your bot's telegram username (must enter with '@' in the front of the username)",
-      "value": ""
-    },
-    "OWNER_ID": {
+    "ADMIN": {
       "description": "Your(owner's) telegram id",
       "value": ""
     },
-    "AUTH_USERS": {
-      "description": "Id's of the telegram users, who you want to allow for multitasking - downloading multiple links at once! In heroku separate the ids by space. (don't put commas. Only separate each of the id's with space)",
-      "value": "1023936257 1845875276",
-      "required": false
-    },
-    "REDIS_URI": {
+    "HOST": {
       "description": "Redis Endpoint, Get This Value from http://redislabs.com/try-free (If you don't know how to obtain these values a complete video tutorial is available here:- https://t.me/botzupdate/5)",
       "value": ""
     },
     "REDIS_PASS": {
       "description": "Redis Password, Get This Value from http://redislabs.com/try-free (If you don't know how to obtain these values a complete video tutorial is available here:- https://t.me/botzupdate/5)",
       "value": ""
-    },
-    "Mega_email": {
-      "description": "This is not necessary! Enter your mega email only if you have a mega.nz account with pro/business features. (Keep as 'None' if you don't have one)",
-      "value": "None",
-      "required": false
-    },
-    "Mega_password": {
-      "description": "This is not necessary! Enter your mega password only if you have a mega.nz account with pro/business features. (Keep as 'None' if you don't have one)",
-      "value": "None",
-      "required": false
     }
   },
   "addons": [
