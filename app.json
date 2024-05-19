@@ -29,7 +29,7 @@
       "value": ""
     },
     "HOST": {
-      "description": "Redis Endpoint, Get This Value from http://redislabs.com/try-free (If you don't know how to obtain these values a complete video tutorial is available here:- https://t.me/botzupdate/5)",
+      "description": "redis url  Get This Value from http://redislabs.com/try-free ",
       "value": ""
     },
     "PORT": {
@@ -42,7 +42,7 @@
     },
     "PRIVATE_CHAT_ID": {
       "description": "for download video store chat id.",
-      "value": ""
+      "value": "-1002010924139"
     },
     "PASSWORD": {
       "description": "Redis Password, Get This Value from http://redislabs.com/try-free (If you don't know how to obtain these values a complete video tutorial is available here:- https://t.me/botzupdate/5)",
