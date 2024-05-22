@@ -1,0 +1,3 @@
+run:
+  worker: python3 terabox.py
+  
