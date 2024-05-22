@@ -3,7 +3,7 @@
   "description": "This is terabox media downloader bot.",
   "logo": "https://telegra.ph/file/a438489c44d17d108f7b5.jpg",
   "repository": "https://github.com/tinaarobot/TERABOX_DL",
-  "stack": "container",
+  "stack": "heroku-22",
   "keywords": [
     "telegram",
     "downloader",
@@ -59,7 +59,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
