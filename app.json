@@ -38,7 +38,7 @@
     },
     "COOKIE": {
       "description": "get chrome dev tools. ",
-      "value": ""
+      "value": "PANWEB=1; csrfToken=; lang=en; TSID=; __bid_n=; _ga=; __stripe_mid=; ndus=; browserid==; ndut_fmt=; _ga_06ZNKL8C2E="
     },
     "PRIVATE_CHAT_ID": {
       "description": "for download video store chat id.",
